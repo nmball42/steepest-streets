@@ -31,4 +31,11 @@ Remove the API key if storing file anywhere public.
 ## Improvements
 
 - Manual colormap by absolute gradient, e.g., 0:0.05:0.25+ grade (narrow bins can also directly highlight steepest grades for a given city)
+- Refine the analysis to be more robust in places such as San Francisco
+  - Filter out any segments of obviously spurious grade, say over 40%, and too-short length, say less than 10 meters
+  - Manually inspect remaining Street View images
+  - Manually adjust street node points so they correspond to the satellite image of the intersection (being sure that the network and raster are precisely aligned using a local CRS projection)
+  - Remove the OSMnx simple intersection default
+- Minimum threshold length on street segments, e.g., 10m
+- Make a webapp so users can see their neighborhood without writing code
 - Generate server-side digital signatures for currently unsigned Street View Static API requests
