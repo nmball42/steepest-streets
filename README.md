@@ -2,7 +2,7 @@
 
 Last updated: Feb 06th 2026
 
-OpenStreetMap and the OSMnx add-on for viewing streets as a network can be used to find the steepest streets in a neighborhood. Loosely based on their tutorial `12-node-elevations-edge-grades.ipynb`, we find the steepest streets in my home San Francisco Bay Area suburb of Millbrae, make a map of street grades that turned out to be useful for walking the area, and show views looking up the streets via the Google Street View API. The same code works in principle on any named area present in the well-known OpenStreetMap Nominatim geocoding tool.
+OpenStreetMap and the OSMnx add-on for viewing streets as a network can be used to find the steepest streets in a neighborhood. Loosely based on their tutorial `12-node-elevations-edge-grades.ipynb`, we find the steepest streets in my home San Francisco Bay Area suburb of Millbrae, make a map of street grades that turned out to be useful for walking the area, and show views looking up the streets via the Google Street View API. The same code works in principle on any named area present in the well-known OpenStreetMap Nominatim geocoding tool. ([Blogpost](https://nickballdatascience.com/finding-the-steepest-streets-in-millbrae/))
 
 ## Disclaimer
 This is a personal project built as part of my transition from generalist data scientist to specializing in geospatial data science, GIS, and GeoAI. The aim is for this project to be shareable, but it is not designed for production use.
