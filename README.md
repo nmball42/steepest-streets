@@ -5,7 +5,9 @@ Last updated: Sep 28th 2026
 <p align="center">
   <img src="steepest_streets.png" alt="Project Banner" width="50%">
   <br>
-  <em>OSMnx data for Millbrae (© OpenStreetMap contributors), overlaid with steepest streets results from this repository</em>
+  <em>OSMnx data for Millbrae overlaid with steepest streets results from this repository</em>
+  <br>
+  <em>OpenStreetMap data © OpenStreetMap contributors</em>
 </p>
 
 OpenStreetMap and the OSMnx add-on for viewing streets as a network can be used to find the steepest streets in a neighborhood. Loosely based on their tutorial `12-node-elevations-edge-grades.ipynb`, we find the steepest streets in my home San Francisco Bay Area suburb of Millbrae, make a map of street grades that turned out to be useful for walking the area, and show views looking up the streets via the Google Street View API. The same code works in principle on any named area present in the well-known OpenStreetMap Nominatim geocoding tool.
